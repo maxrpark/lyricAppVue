@@ -1,10 +1,4 @@
----
-title: Lyric App
-id: recTTyGalxlUf8dOU
-img: https://airtable.com/appOFKzvfCo4ffV7l/tbluVjdXw5CeBYXbo/viwpguF3T3VGMVyvo/recTTyGalxlUf8dOU?blocks=hide
-description: This app helps you find song lyrics.
-alt: Home page image
----
+
 
 ## This is my first website 2.0.1
 
