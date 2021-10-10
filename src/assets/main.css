@@ -1,0 +1,36 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primaryColor: #ebebeb;
+  --secundaryColor: #fafafa;
+  --lightColor: #fefefe;
+  --baseColor: #0f0e17;
+  --baseColor2: #cacaca;
+  --text-primary-color: #222;
+}
+
+body {
+  background: var(--primaryColor);
+  font-family: var(--bodyFont);
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+  font-size: 1.25rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.dark-mode {
+  --primaryColor: #1e1e1e;
+  --secundaryColor: #2d2d30;
+  --baseColor: #fefefe;
+  --baseColor2: #3f3f3f;
+  --text-primary-color: #ddd;
+}
