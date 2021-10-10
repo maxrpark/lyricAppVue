@@ -7,7 +7,7 @@
         <input v-model="artist" placeholder="Enter artist" />
         <label>Song</label>
         <input v-model="song" placeholder="Enter song" />
-        <button class="btn" type="submit">Get me lyric!</button>
+        <button class="btn" type="submit">Lyric me!</button>
       </form>
     </div>
     <div class="song-container" v-if="lyric.length > 0">
